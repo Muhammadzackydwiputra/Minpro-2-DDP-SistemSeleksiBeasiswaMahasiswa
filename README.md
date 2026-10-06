@@ -31,9 +31,9 @@ Dictionary data digunakan sebagai tempat untuk menyimpan data mahasiswa yang dim
 
 "input_ipk()" digunakan untuk menerima nilai IPK dari pengguna sekaligus melakukan validasi. Nilai IPK yang diperbolehkan adalah 0 sampai 4. Jika nilai tidak berada di rentang itu, program akan menampilkan pesan bahwa IPK harus berada pada rentang 0,0–4,0 dan mengembalikan nilai -1 sebagai tanda bahwa input IPK tidak valid.
 
+# Function Tambah
 <img width="256" height="236" alt="Screenshot 2026-10-06 150701" src="https://github.com/user-attachments/assets/303fe42c-fe7d-409a-b527-9b0186321f8b" />
 
-# Function Tambah
 "tambah()" digunakan untuk menambahkan data mahasiswa. Program terlebih dahulu meminta nama mahasiswa dan memeriksa apakah nama tersebut kosong atau sudah terdaftar. Setelah nama valid, program meminta IPK menggunakan "input_ipk()". Jika IPK valid, data mahasiswa disimpan ke dalam dictionary data.
 
 # Function Lihat
